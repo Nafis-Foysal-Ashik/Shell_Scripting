@@ -12,4 +12,3 @@ echo $PWD
 #!/bin/bash
 name=Nafis
 echo "My name is $name"
-n

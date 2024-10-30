@@ -22,7 +22,7 @@ else
 echo "$file_name not found"
 fi
 
-if [ -s $file_name ] #-e -> if the file is empty or not
+if [ -s $file_name ] #-s -> if the file is empty or not
 then 
 echo "$file_name not empty"
 else

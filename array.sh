@@ -12,7 +12,7 @@ arr[3]='KUET' #replace KUET-CSE to KUET
 
 echo "${arr[@]}"
 
-unset arr[3]
+unset arr[3] #unset command removes the element at index 3 from the array.
 echo "${arr[@]}"
 
 string=nafis # this value stored in the 0th index

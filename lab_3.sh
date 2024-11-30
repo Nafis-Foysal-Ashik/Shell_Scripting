@@ -6,9 +6,9 @@ echo ${#str1}
 str3="My name is $str2"
 echo $str3
 
-echo ${str3:3}
+echo ${str3:3} #name is Nafis
 
-echo ${str3:3:5}
+echo ${str3:3:5} #3rd character ("n" in "name") and taking 5 characters->name 
 
 num1=10
 num2=20

@@ -23,12 +23,12 @@ fi
 #array
 
 arr=( 1 2 3 4 5 )
-echo ${arr[*]}
+echo ${arr[*]} #1 2 3 4 5
 
 echo ${arr[1]}
 echo ${arr[4]}
 
-echo $1' -> $1' $2' -> $2' $3' -> $3' $4' ->$4' 
+echo $1' -> $1' $2' -> $2' $3' -> $3' $4' ->$4' # ./script.sh arg1 arg2 arg3 arg4
 
 x=10
 
@@ -47,7 +47,8 @@ dept=("cse" "eee" "me" "ce")
 
 for i in "${dept[@]}"
 do
-Dept="${i^^}"
+Dept="${i^^}"  # i="cse"
+echo "${i^^}"  # Output: CSE
 echo "Department "$Dept
 done
 
